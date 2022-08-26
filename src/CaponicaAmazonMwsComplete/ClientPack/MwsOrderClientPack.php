@@ -33,7 +33,7 @@ class MwsOrderClientPack extends MwsOrderClient implements ThrottleAwareClientPa
     const STATUS_PARTIALLY_SHIPPED              = 'PartiallyShipped';
     const STATUS_SHIPPED                        = 'Shipped';
     const STATUS_INVOICE_UNCONFIRMED            = 'InvoiceUnconfirmed';
-    const STATUS_CANCELED                       = 'Canceled';
+    const STATUS_CANCELLED                      = 'Cancelled';
     const STATUS_UNFULFILLABLE                  = 'Unfulfillable';
 
     const METHOD_GET_ORDER                      = 'getOrder';
